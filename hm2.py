@@ -26,3 +26,22 @@ print(eerste_rij)
 
 laatste_rij = a[:,-1]
 print(laatste_rij)
+
+# SECOND 
+
+
+def linear_equasion(x):
+    y = (4*x)+8
+    print(y)
+
+linear_equasion(5)
+
+
+linear_equasion(int(input("what number ??")))
+
+#
+def quadratic_equasion(x):
+    y = (x**2)+5
+    print(y)
+
+quadratic_equasion(int(input("what num for quadratic")))
